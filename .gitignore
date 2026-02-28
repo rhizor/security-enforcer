@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+enforcer.log
+
+# Estado
+.enforcer_state.json
+.fim_baseline.json
+
+# Backups
+backup_*.rules
+
+# Reports
+reports/
+*.html
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config local
+config.local.json
